@@ -23,7 +23,7 @@ class Dog
 
 end
 
-digerddoge = Dog.new("Fido","Beagle")
+digerddoge = Dog.new
 
-#digerddoge.instance_variable_set(:@name, "Fido")
-#digerddoge.instance_variable_set(:@breed, "Beagle")
+digerddoge.instance_variable_set(:@name, "Fido")
+digerddoge.instance_variable_set(:@breed, "Beagle")
