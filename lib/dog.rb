@@ -20,5 +20,5 @@ end
 
 doge = Dog.new
 
-doge.instance_variable_set(:@this_dogs_name, "Fido")
+doge.instance_variable_set(:@name, "Fido")
 doge.instance_variable_set(:@breed, "Beagle")
